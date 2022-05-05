@@ -1,0 +1,24 @@
+.card-list {
+    width: 85vw;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 20px;
+}
+
+@media (min-width: 768px) {
+    .card-list {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1024px) {
+    .card-list {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1250px) {
+    .card-list {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
